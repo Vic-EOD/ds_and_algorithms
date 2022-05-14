@@ -1,4 +1,4 @@
-import sorting.InsertionSort;
+import sorting.*;
 
 public class Main {
 
@@ -9,7 +9,7 @@ public class Main {
             System.out.print(intArray[i] + ", ");
         }
 
-        InsertionSort.sort(intArray);
+        BubbleSort.sort(intArray);
         System.out.println();
 
         for(int i = 0; i < intArray.length; i++) {
